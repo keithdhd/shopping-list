@@ -17,6 +17,12 @@ h1{
 
 }
 
+#warning{
+	color: red;
+	margin:10px;
+	display: none;
+}
+
 .input-box{
 	padding:20px;
 }
@@ -31,6 +37,10 @@ h1{
 .check-me{
 	padding:2px;
 	margin: 2px 5px;
+}
+
+.checked-off{
+	text-decoration:line-through;
 }
 
 .shopping-list ul{
