@@ -1,0 +1,76 @@
+div{
+	border-bottom:2px solid #648880;
+}
+
+body{
+	width:500px;
+	margin:50px auto;
+	font: 400 24px/30px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	background: #293f50;
+  	text-align: center;
+}
+
+h1{
+	color: #648880;
+	border-bottom: 22px;
+	font: 300 34px/34px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.input-box{
+	padding:20px;
+}
+
+.new-item{
+	border-radius:5px;
+	padding: 10px 30px;
+	color: DarkGrey;
+	font: 300 24px/30px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.check-me{
+	padding:2px;
+	margin: 2px 5px;
+}
+
+.shopping-list ul{
+	margin: 20px;
+}
+
+.shopping-list li{
+	text-align: left;
+	color:  #648880;
+	list-style: none;
+	padding: 5px; 
+	border-radius: 5px;
+}
+
+.shopping-list li:hover{
+	background-color: #648880;
+	cursor: pointer;
+	color:#293f50;
+}
+
+.btn{
+	border-radius:5px;
+	background-color: #648880;
+	color:#293f50;
+	cursor: pointer;
+	padding: 12px 30px;
+  	font-size: 24px;
+  	border:0;
+  	display: inline-block;
+}
+
+.btn:hover{
+	background-color: DarkGrey;
+}
+
+.btn-delete{
+	float:right;
+	color: white;
+	background-color: red;
+	border-radius: 5px;
+	padding: 0 5px;
+	display: none;
+}
